@@ -29,7 +29,8 @@ public class Menu extends JMenuBar { //class for the menu
 		JMenuItem set=new JMenuItem("Settings");
 		JMenuItem help = new JMenuItem("Help");
 		JMenuItem author= new JMenuItem("Authors");
-		JMenuItem surprise=new JMenuItem("Wonderful Surprise");
+		//JMenuItem surprise=new JMenuItem("Wonderful Surprise");
+		//here a picture was shown when the user clicked "Wonderful surprise". A small funny surprise!
 
 		JMenuItem loadint=new JMenuItem("Load Internal");
 		JMenuItem loadext=new JMenuItem("Load External");
@@ -46,7 +47,7 @@ public class Menu extends JMenuBar { //class for the menu
 		m.add(set);
 		m.add(help);
 		m.add(author);
-		m.add(surprise);
+		//m.add(surprise); The suprise window
 		
 		add(m);
 		
@@ -117,7 +118,7 @@ public class Menu extends JMenuBar { //class for the menu
 		
 
 		//not the most important
-		surprise.addActionListener(new ActionListener() {
+		/*surprise.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -125,7 +126,7 @@ public class Menu extends JMenuBar { //class for the menu
 				JFrame frame = new JFrame();
 				frame.setLocationRelativeTo(null);
 				
-				ImageIcon icon = new ImageIcon("horror.png");
+				ImageIcon icon = new ImageIcon("insert picture");
 				JLabel label = new JLabel(icon);
 				
 				frame.add(label);
@@ -134,6 +135,6 @@ public class Menu extends JMenuBar { //class for the menu
 				frame.setLocationRelativeTo(null);
 				frame.setVisible(true);
 				}
-		});
+		});*/
 	}
 }
