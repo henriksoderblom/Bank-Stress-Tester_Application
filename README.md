@@ -4,4 +4,6 @@ This is an application for testing how well different banks can withstand differ
   
 About the code: The GUI is coded in Swing and JavaSocket was used for the dataconnection. The external server has to have the Server class and it also has to understand the object "Result" that is being sent to it. The Model-View-Controller design is used. Referenced Libraries are jfreechart, jcommon and opencsv. 
 
-  
+<img src="/Pictures/AppView.png">
+<img src="/Pictures/RunWindow.png">
+<img src="/Pictures/Settings.png">
