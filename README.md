@@ -6,4 +6,4 @@ About the code: The GUI is coded in Swing and JavaSocket was used for the dataco
 
 <img src="/Pictures/AppView.png">
 <img src="/Pictures/RunWindow.png">
-<img src="/Pictures/Settings.png">
+<img src="/Pictures/SettingsView.png">
